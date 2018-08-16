@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -7,9 +8,13 @@ class Header extends Component {
     return (
         <nav>
         <div className="nav-wrapper">
-          <span><a href="/" className="brand-logo">{name}</a></span>
+          <span><Link to="/" className="brand-logo">{name}</Link></span>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><a href="/">Home</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About us</Link></li>
+            <li><Link to="contact/add">Add Contact</Link></li>
+            
+            
            
           </ul>
         </div>

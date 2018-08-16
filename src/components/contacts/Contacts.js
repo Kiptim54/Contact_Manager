@@ -15,6 +15,7 @@ class Contacts extends Component {
                   console.log(contacts)
                   return (
                     <div>
+                        <h1 className="red-text"> Contact List </h1>
                         {contacts.map(contact=>{
                             return <Contact contact={contact} key={contact.id} />
                         })
