@@ -33,7 +33,7 @@ class AddContact extends Component {
             email: '',
             phone:''
         })
-        
+        this.props.history.push('/')
         
     }
   
