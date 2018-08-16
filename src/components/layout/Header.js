@@ -13,6 +13,8 @@ class Header extends Component {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About us</Link></li>
             <li><Link to="contact/add">Add Contact</Link></li>
+            <li><Link to="/test">CRE Papaer</Link></li>
+            
             
             
            
